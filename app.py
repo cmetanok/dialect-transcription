@@ -156,7 +156,7 @@ if uploaded_file is not None:
 st.divider()
 
 # Создаем вкладки для инструкции
-tab1, tab2, tab3 = st.tabs([" Инструкция пользователя", " О проекте"])
+tab1, tab2 = st.tabs([" Инструкция пользователя", " О проекте"])
 
 with tab1:
     st.markdown("""
